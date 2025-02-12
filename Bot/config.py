@@ -1,6 +1,6 @@
 from distutils.util import strtobool
 import os
-import environ from os
+from os import environ
 from dotenv import load_dotenv
 from pyrogram.types import BotCommand
 
