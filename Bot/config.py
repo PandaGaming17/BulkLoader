@@ -6,7 +6,7 @@ from pyrogram.types import BotCommand
 
 
 # Load environment variables from .env file
-load_.env()
+load_dotenv()
 
 
 class Config(object):
